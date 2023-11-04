@@ -1,0 +1,79 @@
+/* PC */
+
+@media (min-width: 1024px)
+{ #header .mobile-menu-btn{
+    display: none;
+}
+
+}
+
+
+/* Tablet & Mobile*/
+
+@media (max-width: 1023px){
+    .btn{
+    padding: 15px 16px;
+   }
+}
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px)
+{#header .mobile-menu-btn{
+    display: none;
+}
+}
+
+
+
+/* Mobie */
+
+@media (max-width: 740px)
+{       
+    .contact-form .s-col-full{
+        margin-top: 8px;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    #header{
+    overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    /* chỉnh button active cae button */
+    #nav
+    {display: block;}
+
+    #nav > li
+    {display: block;}
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px;
+        padding-left: 40px;
+    }
+
+    #content .member-item{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+    
+}
+
